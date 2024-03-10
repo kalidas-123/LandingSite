@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e3f9ff;
+}
+.container{
+    max-width: 80vw;
+    font-family: "Kode Mono", monospace;
+}
+
+.navbar{
+    display: flex;
+    height: 65px;
+
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 50%;
+
+}
+
+.topright{
+    width: 50%;
+
+}
+
+.section1{
+    max-height: 100vh;
+}
+
+.section1 h1{
+    font-size: 2rem;
+}
+
+.logo{
+    font-size: 1.5rem;
+}
+
+.dumbellimg{
+    width: 280px;
+}
+
+.topright .gymimg{
+    width: 466px;
+}
+
+.section2{
+    padding:70px;
+}
+
+.section2 p{
+    padding: 0 8vh;
+    text-align: center;
+}
+.section2 h1{
+    font-size: 2rem;
+}
+
+.box{
+    margin: 12px 22px;
+    min-width: 20vh;
+    border: 2px solid black;
+    text-align: center;
+    padding: 8px 0px;
+    border-radius: 8px;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.plantable{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;   
+    border-collapse: collapse;
+}
+
+.section3 h1{
+    font-size: 2rem;
+}
+
+.section3{
+    padding:70px;
+}
+
+.section3 table th{
+    width: 25vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+
+.section3 table td{
+    border-bottom: 2px solid black;
+}
+
+.section3 table tr{
+    border-bottom: 2px solid black;
+}
+
+footer{
+    padding: 25px;
+    text-align: center;
+}
